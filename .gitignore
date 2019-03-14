@@ -1,0 +1,6 @@
+node_modules
+APNS/
+
+.env
+package-lock.json
+.DS_Store

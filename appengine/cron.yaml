@@ -1,0 +1,5 @@
+cron:
+- description: Push a "tick" onto pubsub every min
+  url: /publish/every-min
+  schedule: every 1 minutes synchronized
+
