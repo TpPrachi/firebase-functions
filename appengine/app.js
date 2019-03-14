@@ -31,7 +31,7 @@ const fcm = new FCM(process.env.ServerKey);
 // value when running on AppEngine.
 const pubsubClient = new PubSub({
   projectId: process.env.GOOGLE_CLOUD_PROJECT
-  // projectId: 'clearcast-69ba5'
+  // projectId: 'temp-69ba5'
 });
 
 // For any request to /public/{some_topic}, push a simple
@@ -90,8 +90,8 @@ app.get('/publish/:topic', async (req, res) => {
           registration_ids: registrationIds, // needed in FCM
           'mutable-content': 1,
           notification: { // Send notification or data
-            title: 'Clearcast',
-            body: 'Clearcast notification!',
+            title: 'Temp',
+            body: 'Temp notification!',
             'mutable-content': 1,
           }
         };

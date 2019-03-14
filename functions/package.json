@@ -1,17 +1,13 @@
 {
-  "name": "clearcast",
+  "name": "firebasedemo",
   "version": "1.0.0",
   "description": "A simple, daily weather notification app which provides users with push notifications about their weather forecast. The app will be ad supported and will provide very basic weather information.",
   "main": "index.js",
   "scripts": {
     "test": "index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "http://git.sa-labs.info/clearcast/clearcast-js-functions-firebase.git"
-  },
   "keywords": [
-    "clearcast"
+    "firebasedemo"
   ],
   "author": "prachi.thakkar@solutionanalysts.com",
   "license": "ISC",

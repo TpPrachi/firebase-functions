@@ -15,7 +15,7 @@ $ firebase login
 $ firebase use --add (Select your project and alias)
 $ firebase deploy --only functions
 OR
-$ firebase deploy --only functions:clearcastTemp(FUNCTION_NAME)
+$ firebase deploy --only functions:temp(FUNCTION_NAME)
 ```
 
 - Install Google Cloud SDK
@@ -43,7 +43,7 @@ $ gcloud functions deploy helloGET(FUNCTION_NAME) --trigger-http
 ```sh
 $ gcloud functions describe helloGET
 URL in browser
-$ https://us-central1-clearcast-69ba5.cloudfunctions.net/helloGET
+$ https://us-central1-temp-69ba5.cloudfunctions.net/helloGET
 ```
 
 OR
@@ -109,7 +109,7 @@ $ Place this json file securly in your machine, and provide json file path in ro
 ```
 
 ### Function URL (addMessage): 
-- https://us-central1-MY_PROJECT.cloudfunctions.net/clearcastTemp(FUNCTION_NAME)
+- https://us-central1-MY_PROJECT.cloudfunctions.net/temp(FUNCTION_NAME)
 
 ### References
 - https://cloud.google.com/functions/docs/quickstart

@@ -1,5 +1,5 @@
 exports.helloGET = (req, res) => {
-  res.send('Hello Clearcast!');
+  res.send('Hello User!');
 };
 
 let functions = require('firebase-functions');
